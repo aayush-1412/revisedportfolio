@@ -19,20 +19,9 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am a final year student pursuing{" "}
-        <span className="font-medium">Bachelor's of Technology </span>in Information Technology{" "}
         <span className="font-medium">I am a full-stack web developer</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript. I am always looking to
-        learn new technologies. I am currently looking for an{" "}
-        <span className="font-medium">internship</span> as a software
-        developer.
+        problem-solving aspect. I have one year of experience and currenlty lookin for jobs in Software developer domain. I am language and framework agnostic and also available for freelance work.
       </p>
 
      

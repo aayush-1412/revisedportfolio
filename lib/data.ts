@@ -16,6 +16,10 @@ export const links = [
     hash: "#about",
   },
   {
+    name: "Experience",
+    hash: "#experience",
+  },
+  {
     name: "Projects",
     hash: "#projects",
   },
@@ -23,10 +27,7 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
+
   {
     name: "Contact",
     hash: "#contact",
@@ -34,15 +35,24 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  
   {
-    title: "Tilicho Fintech (FreeBird) ",
-    location: "SDE Intern",
-    description:"Developed and implemented an internal sales management tool, streamlining lead generation and user filtering processes for improved efficiency and productivity. Also developed frontend feature for seamless user data synchronization with Google Drive for the FreeBird App",
+    title: "PricewaterhouseCoopers (PwC)",
+    location: "Specialist, Kolkata",
+    description:
+      "Built an internal data platform from scratch with features like data cataloging, profiling, and quality checks. Integrated LLM-based insights for auto-generating data summaries. Also developed a full-stack PWA with SSO and a real-time chatbot for an e-commerce client.",
+    icon: React.createElement(FaReact),
+    date: "Sept 2024 - Present",
+  },
+  {
+    title: "Tilicho Fintech (FreeBird)",
+    location: "SDE Intern, Remote",
+    description:
+      "Developed a full-stack internal sales management tool that improved lead conversion by 40%. Built user filtering workflows and integrated Google Drive sync in the FreeBird App for seamless data access.",
     icon: React.createElement(FaReact),
     date: "June 2023 - Sept 2023",
   },
 ] as const;
+
 
 export const projectsData = [
   {
@@ -91,6 +101,6 @@ export const skillsData = [
   "GraphQL",
   "Redis",
   "Express",
-
+  "PostgreSQL",
   "Framer Motion",
 ] as const;
